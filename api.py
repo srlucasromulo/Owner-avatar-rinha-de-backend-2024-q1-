@@ -26,7 +26,6 @@ async def lifespan(app: FastAPI):
 
     yield
 
-    reset_database()    # TODO retirar
     conn.close()
 
 
